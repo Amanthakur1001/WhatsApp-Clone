@@ -1,0 +1,785 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Main-container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: #FCF5EB;
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: #FCF5EB;
+    padding-inline: 30px;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: space-between;
+    width: 500px
+}
+
+.nav-text ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    width: 450px;
+
+}
+
+.nav-down {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.nav-down button {
+    border: 1px solid black;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: green;
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: url(./bg\ img.png);
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 35px; */
+    border-radius: 50px;
+    background-color: #FCF5EB;
+    padding-inline: 40px;
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.img-text {
+    width: 50%;
+    height: auto;
+    /* background-color: antiquewhite; */
+}
+
+.img-text h1 {
+    font-size: 60px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: aliceblue;
+}
+
+.img-text p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.img-text button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: green;
+    margin-top: 15px;
+}
+
+.img-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    /* float: right; */
+}
+
+.text-end {
+    align-self: flex-end;
+    padding-right: 30px;
+    padding-top: 20px;
+    color: #5E5E5E;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ padding-top: 40px;
+    background-color: #FCF5EB;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+    flex-direction: column;
+   padding-top: 35px;
+    background-color: #FCF5EB;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding-top: 40px;
+    background-color: #FCF5EB;
+}
+
+.section-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCF5EB;
+    /* flex-direction: column; */
+}
+
+.five-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.five-left {
+    width: 700px;
+}
+
+.five-left h2 {
+    font-size: 50px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+}
+
+.five-left h4 {
+    font-size: 15px;
+    color: rgb(28, 30, 33);
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.five-left a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(32, 114, 30);
+    color: rgb(28, 30, 33);
+
+}
+
+.section-six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #111B21;
+    /* flex-direction: column; */
+}
+
+.six-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+
+.six-right h2 {
+    font-size: 55px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+}
+
+.six-right p {
+    font-size: 18px;
+    color: white;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.six-right a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(32, 114, 30);
+    color: white;
+    /* font-weight: 800; */
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.section-seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCF5EB;
+    /* flex-direction: column; */
+}
+
+.seven-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.seven-left {
+    width: 700px;
+}
+
+.seven-left h2 {
+    font-size: 50px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+}
+
+.seven-left h4 {
+    font-size: 17px;
+    color: rgb(28, 30, 33);
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+
+.seven-left a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(32, 114, 30);
+    color: rgb(28, 30, 33);
+}
+
+.seven-right {
+    background-image: url("/seven\ img.png");
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seven-right img{
+/* margin-top: 30px ; */
+height: 440px;
+}
+ 
+      /* Section-Eight  in CSS */
+   
+.section-eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  background-color:#FCF5EB;
+}
+
+.eight-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.img_eight{
+    width: 100%;
+    background-image: url("/section-eight\ img.png");
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.eight-right {
+    width: 52%;
+}
+
+.eight-right h2 {
+    font-size: 55px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+    
+}
+
+.eight-right p {
+    font-size: 18px;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.eight-right a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(32, 114, 30);
+    color: rgb(28, 30, 33);
+    /* font-weight: 800; */
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+   /* Section-Nine in CSS */
+
+   .section-nine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCF5EB;
+    /* flex-direction: column; */
+}
+
+.nine-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.nine-left {
+    width: 100%;
+}
+
+.nine-left h2 {
+    font-size: 50px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+}
+
+.nine-left h4 {
+    font-size: 17px;
+    color: rgb(28, 30, 33);
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+
+.nine-left a {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(32, 114, 30);
+    color: rgb(28, 30, 33);
+}
+
+.nine-right {
+    background-image: url("/seven\ img.png");
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nine-right{
+width: 100%;
+}
+
+   /* Section-Ten in CSS */
+.section-ten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #E6FFDA;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.ten-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.ten_left{
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+    width: 60%;
+    height: 120vh;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.ten_left p{
+    text-align: center;
+    font-size: 60px;
+    color:  rgb(17, 27, 33);
+    /* padding: 50px; */
+}
+.ten-icon{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   float: left;
+}
+.ten-icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+margin-left: 5px;
+}
+.ten_right{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    height: 50vh;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(28, 30, 33);
+    background-color: white;
+}
+.ten_right i{
+    font-size: 25px;
+}
+.ten_right h1{
+   
+    margin-top: 30px;
+}
+.ten_right p{
+   margin-top: 20px;
+}
+.ten_right button{
+    margin-top: 20px;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color:#111B21;
+    flex-direction: column;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 40vh;
+    line-height: 35px;
+    justify-content: space-between;
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none;
+   font-size: 18px;
+   color: white;
+   border-bottom: 1px solid rgb(81, 130, 81);
+}
+.lists ul li{
+    list-style: none;
+}
+.lists p{
+    font-size: 12px;
+}
+.list-1 ul li button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 60px;
+    background-color: rgb(64, 164, 64);
+}
+.footer-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 70%;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+}
+.end button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    /* background-color: forestgreen; */
+    border: 2px solid rgb(243, 232, 232);
+    background: transparent;
+    color: white;
+}
+
+
+  /* Responsive WhatsApp clone in CSS desgin */
+
+@media (max-width:768px) {
+
+
+
+    .Main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+
+
+    .nav-text{
+        display: none;
+    }
+    .img-section{
+        width: 100%;
+        height: auto;
+       padding-inline: 30px;
+       padding-top: 30px;
+    }
+
+    .img-main{
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .img-part{
+        display: none;
+    }
+
+    .img-text h1{
+        font-size: 35px;
+    }
+    .section-three h1{
+        font-size: 28px;
+    }
+    .section-three h1 br{
+        display: none;
+    }
+
+    .section-five{
+        width: 100%;
+        height: auto;
+    }
+
+    .five-part{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .five-left{
+        width: 100%;
+        height: auto;
+        padding-left: 30px;
+    }
+    .five-right{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    .five-left h2{
+        font-size: 30px;
+    }
+
+    .section-six{
+        width: 100%;
+        height: auto;
+    }
+    .six-part{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .six-left{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .six-left img{
+        width: 100%;
+    }
+    .six-right{
+        width: 100%;
+        height: auto;
+        padding-left: 30px;
+
+    }
+
+    .section-seven{
+        width: 100%;
+        height: auto;
+    }
+    .seven-part{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .seven-left{
+        width: 100%;
+        height: auto;
+        padding-left: 30px;
+    }
+    .seven-right{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+    }
+    .seven-right img{
+        width: 300px;
+    }
+
+    .seven-left h2{
+        font-size: 30px;
+    }
+
+    .section-eight{
+        width: 100%;
+        height: auto;
+    }
+    .eight-part{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .eight-left{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eight-right{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+
+    }
+    .eight-right h2{
+        font-size: 30px;
+    }
+
+    .section-nine{
+        width: 100%;
+        height: auto;
+    }
+
+    .nine-part{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .nine-left{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .nine-left h2{
+        font-size: 30px;
+    }
+
+    .nine-right{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-ten{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .ten-part{
+        width: 100%;
+        height: auto;
+    }
+    .ten_left{
+        display: none;
+    }
+    .ten_right{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .Footer{
+        width: 100%;
+        height: auto;
+
+    }
+
+    .lists{
+        width: 100%;
+        height: auto;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .end p{
+        display: none;
+    }
+}
