@@ -50,10 +50,14 @@
 
 .nav-down button {
     border: 1px solid black;
-    width: 100px;
-    height: 35px;
+    width: 120px;
+    height: 45px;
     border-radius: 25px;
     background-color: green;
+}
+.nav-down button:hover{
+ background-color: black;
+ color: white;
 }
 
 .img-section {
@@ -62,22 +66,23 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background-image: url(./bg\ img.png);
+    background-image: url(bg\ img.png);
     background-position: center;
     background-size: cover;
-    /* margin-left: 35px; */
+    height: 700px;
     border-radius: 50px;
     background-color: #FCF5EB;
-    padding-inline: 40px;
+    padding-inline: 60px;
 }
 
 .img-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 75%;
     height: auto;
     justify-content: space-between;
+    
 }
 
 .img-text {
@@ -105,6 +110,11 @@
     border: none;
     background-color: green;
     margin-top: 15px;
+}
+.img-text button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .img-part {
@@ -190,7 +200,9 @@
     text-decoration: none;
     border-bottom: 2px solid rgb(32, 114, 30);
     color: rgb(28, 30, 33);
-
+}
+.five-left a:hover{
+    color: green;
 }
 
 .section-six {
@@ -279,7 +291,7 @@
 }
 
 .seven-right {
-    background-image: url("/seven\ img.png");
+    background-image: url("seven\ img.png");
     background-position: center;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -314,7 +326,7 @@ height: 440px;
 
 .img_eight{
     width: 100%;
-    background-image: url("/section-eight\ img.png");
+    background-image: url("section-eight\ img.png");
     background-position: center;
     background-size: 300px;
     background-repeat: no-repeat;
